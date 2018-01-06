@@ -63,8 +63,8 @@ syn region ftlEndUserDirectiveAlt start=+\[/@+ end=+\]+
 syn region ftlInterpolation start=+${+ end=+}+
 syn region ftlInterpolation2 start=+#{+ end=+}+
 syn region ftlString contained start=+"+ end=+"+
-" syn region ftlComment start=+<#--+ end=+-->+
 syn region ftlComment start=+\[#--+ end=+--\]+
+syn region ftlAltComment start=+<#--+ end=+-->+
 
 " keywords
 syn keyword ftlDirective contained list if else macro import include switch case break
